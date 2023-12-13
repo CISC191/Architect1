@@ -14,6 +14,10 @@ import java.time.temporal.TemporalAdjusters;
 import java.util.Date;
 import java.util.List;
 
+/**
+ * a program that creates a graph for a selected stock
+ */
+
 public class StockCandle {
 
     /*

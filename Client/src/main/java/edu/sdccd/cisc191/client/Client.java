@@ -7,6 +7,9 @@ import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
+/**
+ * Client - a program to display webpage to display stock data
+ */
 @SpringBootApplication
 public class Client {
 
