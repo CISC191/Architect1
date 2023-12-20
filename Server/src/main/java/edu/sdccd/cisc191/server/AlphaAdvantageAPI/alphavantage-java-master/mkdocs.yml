@@ -1,0 +1,52 @@
+site_name: Alphavantage Java
+repo_name: crazzyghost/alphavantage-java
+repo_url: https://github.com/crazzyghost/alphavantage-java
+site_description: "Fluent Java wrapper for Alphavantage API"
+site_author: S. M. Sefa-Yeboah
+
+copyright: 'Copyright &copy; 2019 S. M. Sefa-Yeboah'
+
+nav:
+    - Overview: index.md
+    - "v1.6.0 API":
+      - alphavantage: api/alphavantage/index.md
+      - crypto: api/crypto/index.md
+      - exchangerate: api/exchangerate/index.md
+      - forex: api/forex/index.md
+      - indicator: api/indicator/index.md
+      - timeseries: api/timeseries/index.md
+      - sector: api/sector/index.md
+      - fundamentaldata: api/fundamentaldata/index.md
+    - Recipes:
+      - Stock Time Series: timeseries.md
+      - Forex (FX): forex.md
+      - CryptoCurrencies: crypto.md
+      - Exchange Rates: exchangerate.md
+      - Technical Indicators: indicators.md
+      - Sector Performances: sector.md
+      - Fundamental Data: fundamentaldata.md
+    - Changelog: changelog.md
+theme:
+  name: material
+  features:
+    - instant
+  font:
+    text: "Roboto"
+    code: Roboto Mono
+  palette:
+    primary: deep orange
+    accent: deep orange
+extra_css:
+  - css/extra.css
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: true
+  - toc:
+      permalink: true
+  - pymdownx.tabbed
+#  - pymdownx.highlight:
+#      guess_lang: true
+  - pymdownx.superfences
+

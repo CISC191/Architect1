@@ -12,9 +12,10 @@ import java.io.BufferedReader;
 import java.io.IOException;
 
 
-/* Native Java implementation of the Requests library
- * 
+/**
+ * Native Java implementation of the Requests library
  */
+
 public class Requests {
     enum Protocol {
         GET,
